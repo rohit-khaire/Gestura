@@ -301,8 +301,8 @@ Detailed instructions are provided in [`docs/DEPLOY.md`](docs/DEPLOY.md).
 ## 🤖 Disclosure of AI Tools Used
 
 In compliance with Neural Storm 2026 hackathon submission guidelines, the following AI development tools were utilized during the 48-hour hackathon period:
-- **Claude (Anthropic) & Antigravity (Google DeepMind):** Used for architectural scaffolding, pair-programming the sliding-window temporal smoothing algorithms, authoring automated test suites (`signTranslator.test.js` and `test_metrics.py`), and documentation structuring.
-- **GitHub Copilot / Cursor:** Used for code completions in React UI components and FastAPI request validation boilerplate.
+- **Antigravity (Google):** Used for architectural scaffolding, pair-programming the sliding-window temporal smoothing algorithms, authoring automated test suites (`signTranslator.test.js` and `test_metrics.py`), and documentation structuring.
+- **GitHub Copilot:** Used for code completions in React UI components and FastAPI request validation boilerplate.
 
 *All models, architectures, algorithmic pipelines, and source code were verified, customized, executed, and benchmarked by the project team.*
 
