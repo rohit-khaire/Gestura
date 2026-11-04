@@ -1,0 +1,33 @@
+# Environments and secrets
+.env
+.env.local
+*.env
+
+# Dependencies
+node_modules/
+.venv/
+env/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Large models / datasets
+Model/pretrained/*.pt
+!Model/pretrained/.gitkeep
+Model/checkpoints/
+Model/data/
+
+# Logs and OS
+logs/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
