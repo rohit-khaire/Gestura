@@ -14,12 +14,6 @@
 | **Project Title** | Fluent Meet — Two-Way Sign Language to Speech & Live Captioning Platform |
 | **Track** | Track 1: Future Tech (Intelligent Systems & Emerging Technology) |
 | **Problem Statement** | **FT-04: Sign Language to Text/Speech Translator** |
-| **Team Name** | `[Your Team Name / Gestura]` |
-| **Team Members** | `[Member 1]`, `[Member 2]`, `[Member 3]` |
-| **Live Frontend Demo** | `https://your-app.vercel.app/translator` *(Vercel)* |
-| **Model API Endpoint** | `https://your-space.hf.space` *(Hugging Face Spaces - Docker)* |
-| **Interactive API Docs** | `https://your-space.hf.space/docs` *(FastAPI Swagger UI)* |
-| **Repository** | Public GitHub Repository |
 
 ---
 
