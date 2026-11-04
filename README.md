@@ -79,7 +79,7 @@ The **translator page needs only the model API** — no Stream account.
 # 1. Model API (http://localhost:7860) — Python 3.12
 cd Model
 pip install -r requirements.txt
-uvicorn api:app --app-dir src --port 7860      # downloads the weights on first start
+python -m uvicorn api:app --app-dir src --port 7860      # downloads the weights on first start
 
 # 2. Frontend (http://localhost:5173)
 cd Frontend

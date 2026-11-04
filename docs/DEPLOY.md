@@ -41,7 +41,7 @@ Never commit `.env` files (only `.env.example`). Make the repo **Public** in Set
 ## 5. Fallback if Wi-Fi or the Space misbehaves during the demo
 Run everything on your laptop (works offline once the weights are downloaded):
 ```bash
-cd Model && pip install -r requirements.txt && uvicorn api:app --app-dir src --port 7860
+cd Model && pip install -r requirements.txt && python -m uvicorn api:app --app-dir src --port 7860
 cd Frontend && echo "VITE_DETECT_URL=http://localhost:7860/detect" > .env && npm install && npm run dev
 ```
 Open `http://localhost:5173/translator`.

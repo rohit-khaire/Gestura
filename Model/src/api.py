@@ -2,7 +2,7 @@
 
 Run from the ``Model`` directory:
 
-    uvicorn api:app --app-dir src --port 7860
+    python -m uvicorn api:app --app-dir src --port 7860
 
 Settings come from environment variables (see ``Model/.env.example``).
 """
