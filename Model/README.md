@@ -3,7 +3,8 @@ title: Fluent Meet Sign API
 emoji: 🤟
 colorFrom: purple
 colorTo: blue
-sdk: docker
+sdk: gradio
+app_file: app.py
 app_port: 7860
 pinned: false
 ---
@@ -16,5 +17,6 @@ Part of **Fluent Meet** (Neural Storm 2026, FT-04). See the repository root READ
 - `POST /detect` (form field `file`: JPEG/PNG) → detections with label, score and box
 - Interactive docs at `/docs`
 
-Environment variables (Space → Settings → Variables): `ALLOWED_ORIGINS` (comma-separated sites allowed to
-call the API from a browser — **must include your deployed frontend URL**), `SCORE_THRESHOLD`, `MODEL_URL`.
+The Space runs on the free Gradio CPU tier. Environment variables (Space → Settings → Variables):
+`ALLOWED_ORIGINS` (comma-separated sites allowed to call the API from a browser — **must include your deployed
+frontend URL**), `SCORE_THRESHOLD`, `MODEL_URL`.

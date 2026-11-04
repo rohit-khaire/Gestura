@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: fluent-meet-frontend
+    runtime: static
+    rootDir: Frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_DETECT_URL
+        sync: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
