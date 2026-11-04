@@ -1,5 +1,17 @@
 services:
   - type: web
+    name: fluent-meet-model-api
+    runtime: python
+    plan: free
+    rootDir: Model
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api:app --app-dir src --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: MODEL_URL
+        value: https://huggingface.co/Mandarwork/sign/resolve/main/4426_model.pt
+  - type: web
     name: fluent-meet-frontend
     runtime: static
     rootDir: Frontend
